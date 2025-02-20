@@ -2,8 +2,8 @@
  * Output:
    Enter a string: Kripa
    Enter another string: Bangera
-   The numbers before swapping : name1 = Kripa; number2 = Bangera
-   The numbers after swapping  : name1 = Bangera; number2 = Kripa
+   The strings before swapping : name1 = Kripa; name2 = Bangera
+   The strings after swapping  : name1 = Bangera; name2 = Kripa
 */
 
 const prompt = require("prompt-sync")();
