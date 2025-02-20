@@ -1,7 +1,6 @@
 /*
-* Enter From number: 20
-  Enter End number: 60
-  Sum of even numbers from 20 to 60 is: 840
+* Original Array: 1,2,3,4,5
+  Left Rotated Array by 1: 2,3,4,5,1
 */
 
 const prompt = require('prompt-sync')();
