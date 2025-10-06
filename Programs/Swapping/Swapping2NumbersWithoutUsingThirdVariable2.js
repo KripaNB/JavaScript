@@ -8,10 +8,11 @@
 
 const prompt = require("prompt-sync")();
 
-var number1 = prompt("Enter a number: ");
-var number2 = prompt("Enter another number: ");
+var number1 = parseInt(prompt("Enter a number: "));
+var number2 = parseInt(prompt("Enter another number: "));
 console.log("The numbers before swapping : number1 = " + number1 + "; number2 = " + number2);
 number1 = number1 + number2;
 number2 = number1 - number2;
 number1 = number1 - number2;
+
 console.log("The numbers after swapping : number1 = " + number1 + "; number2 = " + number2);
